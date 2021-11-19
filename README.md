@@ -5,7 +5,7 @@ When a smartphone is purchased, many factors like the Display, Processor, Memory
 
 Random Forest Classifier, XGBoost and Logistic Regression have been used. Hyperparameter tuning is performed for each model.
 
-Different metrics like precision, recall, f1 scores, Auc_roc scores and auc_roc curves have been plotted for different algos.
+Different metrics like precision, recall, f1 scores, Auc_roc scores and auc_roc curves have been plotted for different algos. Since this is a multi-class classification problem, one vs rest technique was used to calculate scores for each class whenever required.
 
 XGBoost came out to be the perfect winner. For multiclass F1 scores and Auc_Roc scores one vs rest technique was used to get the metrics for each class.
 
